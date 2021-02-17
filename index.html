@@ -1,115 +1,163 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="min-w-full min-h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Erick Rodrigo Alves do Amaral - Desenvolvedor Web</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #scrollbar::-webkit-scrollbar-track
+        {
+            -webkit-box-shadow: none;
+            background-color: #202938;
+        }
+
+        #scrollbar::-webkit-scrollbar
+        {
+            width: 8px;
+            background-color: #202938;
+        }
+
+        #scrollbar::-webkit-scrollbar-thumb
+        {
+            background-color: #374151;
+            border: none;
+        }
+    </style>
 </head>
-<body>
-    <div class="min-h-screen container mx-auto">
-        <div class="flex">
-            <aside class="min-h-screen bg-gray-800 px-6 py-4 w-1/4 text-gray-100">
-                <h2 class="text-xl block my-3 font-bold">Entre em Contato</h2>
-                <a href="tel:83996365793" title="Telefone">(83) 99636-5793</a>
-                <a href="mailto:erickamaral@gmail.com" title="Email">erickamaral@gmail.com</a>
-                <a href="https://linkedin.com/in/erick-rodrigo02297129" title="Email">LinkedIn</a>
-                <h2 class="text-xl block my-3 font-bold">Principais competências</h2>
-                <span class="block">JavaScript</span>
-                <span class="block">HTML</span>
-                <span class="block">CSS</span>
-                <span class="block">Git</span>
-                <span class="block">HTML5</span>
-                <span class="block">JQuery</span>
-                <span class="block">Angular</span>
-                <span class="block">Laravel</span>
-                <span class="block">Bootstrap</span>
-                <span class="block">Java</span>
-                <span class="block">Sass</span>
-                <span class="block">Less</span>
-                <span class="block">REST</span>
-                <span class="block">MySQL</span>
-                <span class="block">PostgreSQL</span>
-                <span class="block">Docker</span>
-                <span class="block">Acessibilidade</span>
-                <span class="block">DDD</span>
-                <span class="block">BDD</span>
-                <span class="block">Jasmine</span>
-                <span class="block">Gulp</span>
-                <span class="block">React</span>
-                <span class="block">Vue</span>
-                <span class="block">ES6</span>
-                <span class="block">Flutter</span>
-                <span class="block">Dart</span>
-                <span class="block">Clean Code</span>
-                <span class="block">Protractor</span>
-                <span class="block">Seleniun</span>
-                <span class="block">GraphQL</span>
-                <span class="block">Webpack</span>
-                <span class="block">Inglês Básico</span>
-                <span class="block">Docker Compose</span>
-            </aside>
-            <main class="flex-1 p-10">
-                <h1 class="text-4xl font-bold text-gray-800">Erick Rodrigo Alves do Amaral</h1>
-                <p>Desenvolvedor Frontend | Invillia</p>
-                <p class="text-gray-500 mb-6">João Pessoa, Paraíba, Brasil</p>
-
-                <h2 class="font-bold text-2xl text-gray-800 mb-3">Resumo</h2>
-                <p class="mb-8">Trabalhei tanto no backend (Codeigniter, MySQL) e frontend (Bootstrap, jQuery). Fiquei responsável pela reestruturação e refatoração de praticamente todo o sistema tanto interno quanto externo, na remodelagem do banco de dados. Tive experiência com sistema de rastreamento veícular, GPS, geolocalização, API do Google Maps, Open Street Maps, dentre outros.</p>
-
-                <h2 class="font-bold text-2xl text-gray-800 mb-3">Experiência</h2>
-
-                <h3 class="text-lg font-bold">Invillia</h3>
-                <p>Desenvolvedor frontend</p>
-                <p class="text-gray-500">janeiro de 2020 - atualmente</p>
-                <p>Araraquara, SP</p>
-                <p class="mb-8">
-                    Atualmente trabalho como desenvolvedor frontend utilizando React, Angular,
-                    ES6, Bootstrap, dentro outros.
-                </p>
-
-                <h3 class="text-lg font-bold">Vox Tecnologia</h3>
-                <p>Desenvolvedor fullstack (Líder Técnico)</p>
-                <p class="text-gray-500">janeiro de 2018 - dezembro de 2019</p>
-                <p>João Pessoa, PB</p>
-                <p class="mb-8">
-                    Trabalhei como desenvolvedor Fullstack e Líder Técnico da equipe
-                    de Frontend utilizando PHP, Synfony, jQuery, ES6, Typescript, Angular 6,
-                    Bootstrap, dentro outros.
-                </p>
-
-                <h3 class="text-lg font-bold">Desenvolvedor web</h3>
-                <p>Desenvolvedor freelancer</p>
-                <p class="text-gray-500">novembro de 2014 - janeiro de 2018</p>
-                <p>João Pessoa, PB</p>
-                <p class="mb-8">
-                    Trabalhei como freelancer há cerca de quatro anos, neste período obtive experiência com diversas tecnologias, tais como, Laravel, VueJS, React, React Native, Wordpress, NodeJS, Express, AdonisJS, DevOps, Flutter, Java, dentre outros.
-                </p>
-
-                <span class="block" style="page-break-after: always"></span>
-
-                <h3 class="text-lg font-bold mt-6">Show Tecnologia</h3>
-                <p>Desenvolvedor freelancer</p>
-                <p class="text-gray-500">abril de 2013 - maio de 2014</p>
-                <p>Guarabira, PB</p>
-                <p class="mb-8">
-                    Trabalhei tanto no backend (Codeigniter, MySQL) e frontend (Bootstrap, jQuery). Fiquei responsável pela reestruturação e refatoração de praticamente todo o sistema tanto interno quanto externo, na remodelagem do banco de dados. Tive experiência com sistema de rastreamento veícular, GPS, geolocalização, API do Google Maps, Open Street Maps, dentre outros.
-                </p>
-
-                <h3 class="text-lg font-bold">EuSa (startup extinta</h3>
-                <p>Desenvolvedor frontend</p>
-                <p class="text-gray-500">maio de 2014 - novembro de 2014</p>
-                <p>João Pessoa, PB</p>
-                <p class="mb-8">
-                    Experiência com desenvolvimento web utilizando o framework Backbone e sistema mobile utilizando o ExtJS.
-                </p>
-
-                <h2 class="font-bold text-2xl text-gray-800 mb-3">Formação acadêmica</h2>
-                <p>Unipê – Centro Universitário de João Pessoa</p>
-                <p>Tecnológico, Sistemas para Internet (2011 – 2016)</p>
-            </main>
+<body class="flex min-w-full min-h-full items-stretch" x-data="{ sider: false }">
+    <aside class="transform-all duration-200 flex flex-col flex-shrink-0 bg-gray-800 w-72 text-gray-100 fixed md:relative top-0 bottom-0 left-0" :class="{ '-ml-72': sider }" @click.away="sider = true">
+        <button class="z-10 absolute right-0 top-0 -mr-12 bg-gray-900 text-white w-12 h-10 flex items-center justify-center focus:outline-none" @click="sider = !sider">
+            <svg viewBox="0 0 24 24" class="w-6 h-6">
+                <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg>
+        </button>
+        <div class="w-full h-full overflow-auto px-6 py-4" id="scrollbar">
+            <h2 class="text-xl block my-3 font-bold">Entre em Contato</h2>
+            <div class="flex flex-col space-y-2">
+                <a href="tel:83996365793" title="Telefone" class="flex items-center">
+                    <span class="mr-2">
+                        <svg viewBox="0 0 24 24" class="w-5 h-5">
+                            <path fill="currentColor" d="M17,19V5H7V19H17M17,1A2,2 0 0,1 19,3V21A2,2 0 0,1 17,23H7C5.89,23 5,22.1 5,21V3C5,1.89 5.89,1 7,1H17M9,7H15V9H9V7M9,11H13V13H9V11Z" />
+                        </svg>
+                    </span>
+                    <span>83 99636-5793</span>
+                </a>
+                <a href="mailto:erickamaral@gmail.com" title="Email" class="flex items-center">
+                    <span class="mr-2">
+                        <svg viewBox="0 0 24 24" class="w-5 h-5">
+                            <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+                        </svg>
+                    </span>
+                    <span>erickamaral@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com/in/erick-rodrigo02297129" title="Email" class="flex items-center">
+                    <span class="mr-2">
+                        <svg viewBox="0 0 24 24" class="w-5 h-5">
+                            <path fill="currentColor" d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" />
+                        </svg>
+                    </span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <h2 class="text-xl block my-3 font-bold">Principais competências</h2>
+            <ul class="flex flex-col">
+                <li class="block">JavaScript</li>
+                <li class="block">HTML</li>
+                <li class="block">CSS</li>
+                <li class="block">Git</li>
+                <li class="block">HTML5</li>
+                <li class="block">JQuery</li>
+                <li class="block">Angular</li>
+                <li class="block">Laravel</li>
+                <li class="block">Bootstrap</li>
+                <li class="block">Java</li>
+                <li class="block">Sass</li>
+                <li class="block">Less</li>
+                <li class="block">REST</li>
+                <li class="block">MySQL</li>
+                <li class="block">PostgreSQL</li>
+                <li class="block">Docker</li>
+                <li class="block">Acessibilidade</li>
+                <li class="block">DDD</li>
+                <li class="block">BDD</li>
+                <li class="block">Jasmine</li>
+                <li class="block">Gulp</li>
+                <li class="block">React</li>
+                <li class="block">Vue</li>
+                <li class="block">ES6</li>
+                <li class="block">Flutter</li>
+                <li class="block">Dart</li>
+                <li class="block">Clean Code</li>
+                <li class="block">Protractor</li>
+                <li class="block">Seleniun</li>
+                <li class="block">GraphQL</li>
+                <li class="block">Webpack</li>
+                <li class="block">Inglês Básico</li>
+                <li class="block">Docker Compose</li>
+            </ul>
         </div>
-    </div>
+    </aside>
+    <main class="flex-1 px-6 py-12 md:p-12 bg-white">
+        <h1 class="text-4xl font-bold text-gray-800">Erick Rodrigo Alves do Amaral</h1>
+        <p>Desenvolvedor Frontend | Invillia</p>
+        <p class="text-gray-500 mb-6">João Pessoa, Paraíba, Brasil</p>
+
+        <h2 class="font-bold text-2xl text-gray-800 mb-3">Resumo</h2>
+        <p class="mb-8">Trabalhei tanto no backend (Codeigniter, MySQL) e frontend (Bootstrap, jQuery). Fiquei responsável pela reestruturação e refatoração de praticamente todo o sistema tanto interno quanto externo, na remodelagem do banco de dados. Tive experiência com sistema de rastreamento veícular, GPS, geolocalização, API do Google Maps, Open Street Maps, dentre outros.</p>
+
+        <h2 class="font-bold text-2xl text-gray-800 mb-3">Experiência</h2>
+
+        <h3 class="text-lg font-bold">Invillia</h3>
+        <p>Desenvolvedor frontend</p>
+        <p class="text-gray-500">janeiro de 2020 - atualmente</p>
+        <p>Araraquara, SP</p>
+        <p class="mb-8">
+            Atualmente trabalho como desenvolvedor frontend utilizando React, Angular,
+            ES6, Bootstrap, dentro outros.
+        </p>
+
+        <h3 class="text-lg font-bold">Vox Tecnologia</h3>
+        <p>Desenvolvedor fullstack (Líder Técnico)</p>
+        <p class="text-gray-500">janeiro de 2018 - dezembro de 2019</p>
+        <p>João Pessoa, PB</p>
+        <p class="mb-8">
+            Trabalhei como desenvolvedor Fullstack e Líder Técnico da equipe
+            de Frontend utilizando PHP, Synfony, jQuery, ES6, Typescript, Angular 6,
+            Bootstrap, dentro outros.
+        </p>
+
+        <h3 class="text-lg font-bold">Desenvolvedor web</h3>
+        <p>Desenvolvedor freelancer</p>
+        <p class="text-gray-500">novembro de 2014 - janeiro de 2018</p>
+        <p>João Pessoa, PB</p>
+        <p class="mb-8">
+            Trabalhei como freelancer há cerca de quatro anos, neste período obtive experiência com diversas tecnologias, tais como, Laravel, VueJS, React, React Native, Wordpress, NodeJS, Express, AdonisJS, DevOps, Flutter, Java, dentre outros.
+        </p>
+
+        <span class="block" style="page-break-after: always"></span>
+
+        <h3 class="text-lg font-bold mt-6">Show Tecnologia</h3>
+        <p>Desenvolvedor freelancer</p>
+        <p class="text-gray-500">abril de 2013 - maio de 2014</p>
+        <p>Guarabira, PB</p>
+        <p class="mb-8">
+            Trabalhei tanto no backend (Codeigniter, MySQL) e frontend (Bootstrap, jQuery). Fiquei responsável pela reestruturação e refatoração de praticamente todo o sistema tanto interno quanto externo, na remodelagem do banco de dados. Tive experiência com sistema de rastreamento veícular, GPS, geolocalização, API do Google Maps, Open Street Maps, dentre outros.
+        </p>
+
+        <h3 class="text-lg font-bold">EuSa (startup extinta</h3>
+        <p>Desenvolvedor frontend</p>
+        <p class="text-gray-500">maio de 2014 - novembro de 2014</p>
+        <p>João Pessoa, PB</p>
+        <p class="mb-8">
+            Experiência com desenvolvimento web utilizando o framework Backbone e sistema mobile utilizando o ExtJS.
+        </p>
+
+        <h2 class="font-bold text-2xl text-gray-800 mb-3">Formação acadêmica</h2>
+        <p>Unipê – Centro Universitário de João Pessoa</p>
+        <p>Tecnológico, Sistemas para Internet (2011 – 2016)</p>
+    </main>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
 </body>
 </html>
